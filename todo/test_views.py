@@ -1,0 +1,13 @@
+from django.test import TestCase
+
+# Create your tests here.
+
+class TestViews(TestCase):
+
+    def test_get_todo_list(self):
+    
+    def test_get_add_item_page(self):
+
+    def test_get_edit_item_page(self):
+
+    def test
