@@ -16,6 +16,11 @@
                 {% else %}
                     <td><strike>{{ item.done}}</strike></td>
                 {% endif %}
+                <td>
+                    <a href="/edit/{{ item.id }}">
+                        <button>Edit</button>
+                    </a>
+                </td>
             </tr>
         {% empty %}
             <tr><td>You Have nothing to do.</td></tr>
